@@ -34,7 +34,7 @@ const en = {
         dev: 'Development Achievements',
         coop: 'Cooperative Partner',
         about: 'About Us',
-        con: 'Contact US',
+        con: 'Contact Us',
 
         business: 'MAIN BUSINESS',
         businesstext: 'Qingdi Investment focuses on four major areas: promoting production by financing, leading financing by industry and advancing together by industry and finance, and working together with industry and finance to improve the efficiency of renewable energy to a new height.',
