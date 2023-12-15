@@ -1,12 +1,12 @@
 import { createRouter, createWebHistory,createWebHashHistory } from "vue-router";
 
 const routes = [
+    // {
+    //     path: "/",
+    //     component: () => import('../components/home.vue'),
+    // },
     {
         path: "/",
-        component: () => import('../components/home.vue'),
-    },
-    {
-        path: "/business",
         component: () => import('../components/business.vue')
     },
     {

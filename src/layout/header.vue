@@ -16,7 +16,7 @@ const language = (val)=>{
 const windowheight = reactive({
   height:window.innerHeight
 })
-const i18e = ref(localStorage.getItem("lang")=='zhCN')
+const i18e = ref(localStorage.getItem("lang")=='en')
 console.log(windowheight.height);
 const isshow = () => {
     store.rightshow = true
@@ -95,9 +95,8 @@ const contact = ()=>{
     </Transition>
     <div class="header" :class={shadow:store.isshadow} >
         <img src="/logo.png" alt=""  @click="home">
-        <img src="/option.png" alt="" @click="isshow">
-        <img  v-if="!i18e" src="/en.png" alt=""  @click="language('en')">
-        <img  v-if="i18e" src="/ch.png" alt="" @click="language('zhCN')">
+        <img  v-if="i18e" src="/en.png" alt=""  @click="language('en')">
+        <img  v-if="!i18e" src="/ch.png" alt="" @click="language('zhCN')">
         
     </div>
 </template>

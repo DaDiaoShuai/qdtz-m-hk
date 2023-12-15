@@ -7,7 +7,7 @@ import zhCN from './zh'
 const app = createApp(App)
 const i18n = createI18n({
     legacy: false, 
-    locale: localStorage.getItem('lang') || "zhCN", // 初始化显示中文
+    locale: localStorage.getItem('lang') || "en", // 初始化显示中文
     messages: {en,zhCN} // 这里就是你有几种语言，对象里面就有几个
   })
   export default function (app) {
